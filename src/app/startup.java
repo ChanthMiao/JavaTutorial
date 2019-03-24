@@ -3,7 +3,7 @@ package app;
 import Chapter.*;
 import java.util.Scanner;
 
-public class App {
+public class startup {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to classwork display repo of group 1");
         System.out.print("Please enter number of task you want to launch(e.g 1_4 means chapter 1.4): ");

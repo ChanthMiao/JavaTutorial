@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - App",
+            "name": "CodeLens (Launch) - startup",
             "request": "launch",
-            "mainClass": "app.App",
+            "mainClass": "app.startup",
             "projectName": "JavaTutorial",
             "console": "externalTerminal"
         }
