@@ -42,9 +42,8 @@ public class luckyDraw {
         }
         System.out.println("Exit with " + buff);
         // Well, currentlly I have no choice but to comment the line below. If not, it
-        // will close the static i/o stream, system.in, which is the i/o base ofScanner.
-        // It should be finewith 3rd-part proxy i/o stream sulotion like
-        // "org.apache.commons.io", which Iwill try later.
-        // getInput.close();
+        // will close the static i/o stream, system.in, which is the i/o base of
+        // Scanner. It should be fine with 3rd-part proxy i/o stream sulotion like
+        // "org.apache.commons.io", which Iwill try later. getInput.close();
     }
 }
