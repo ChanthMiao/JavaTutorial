@@ -3,6 +3,12 @@ package Chapter.one.four;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * This calss provide the basic functions for lottery. The only thing you need
+ * to do after allocating memory is to call the member fuction run().
+ * 
+ * @author Chanth Miao
+ */
 public class luckyDraw {
     private int border;
 
@@ -10,8 +16,8 @@ public class luckyDraw {
         // Do nothing
     }
 
-    private void setBorder(int value) {
-        this.border = value;
+    private void setBorder(int borderValue) {
+        this.border = borderValue;
     }
 
     private void getLuckyOne() {
@@ -20,6 +26,12 @@ public class luckyDraw {
         System.out.println("The lucky one is " + result);
     }
 
+    /**
+     * This function picks a random number from the user-specified natural number
+     * range, which start from zero, as the result of the lottery. It has complete
+     * user interaction logic, and will not stoped unless receives quit command from
+     * the user.
+     */
     public void run() {
         Scanner getInput = new Scanner(System.in);
         String buff = "\n";
@@ -41,9 +53,12 @@ public class luckyDraw {
             }
         }
         System.out.println("Exit with " + buff);
-        // Well, currentlly I have no choice but to comment the line below. If not, it
-        // will close the static i/o stream, system.in, which is the i/o base of
-        // Scanner. It should be fine with 3rd-part proxy i/o stream sulotion like
-        // "org.apache.commons.io", which Iwill try later. getInput.close();
+        /**
+         * Well, currentlly I have no choice but to disable the line below. If not, it
+         * will close the static i/o stream, system.in, which is the i/o base of
+         * Scanner. It should be fine with 3rd-part proxy i/o stream sulotion like
+         * "org.apache.commons.io", which Iwill try later.
+         */
+        // getInput.close();
     }
 }
