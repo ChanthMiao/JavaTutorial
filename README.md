@@ -21,7 +21,7 @@ This is the sync code repo of my class team's classwork. Everyone has right to f
 ```bash
 |-src
     |-app
-    |   |-startup.java  # entry point of this program
+    |   |-startUp.java  # entry point of this program
     |-Chapter
         |-router.java   # router for chapter selection
         |-one           # chapter number
