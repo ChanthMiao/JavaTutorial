@@ -27,7 +27,7 @@ public class array {
         for (int i = 0; i < len; i++) {
             System.out.print(this.data[i] + " ");
         }
-        System.out.println(this.data[len + 1]);
+        System.out.println(this.data[len]);
     }
 
     /**
