@@ -68,7 +68,7 @@ Well, if you have install all the plugins referenced in '[Dependences](#2-depend
             "type": "java",
             "name": "CodeLens (Launch) - startUp",
             "request": "launch",
-            "mainClass": "app.startup",
+            "mainClass": "app.startUp",
             "projectName": "JavaTutorial",
             "console": "externalTerminal"
         }
