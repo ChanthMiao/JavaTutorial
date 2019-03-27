@@ -19,6 +19,9 @@ public class router {
         case 1:
             Chapter.one.router.choose(section);
             break;
+        case 2:
+            Chapter.two.router.choose(section);
+            break;
         default:
             System.out.println("Error: the specified chapter number does not exist!");
             break;
