@@ -6,13 +6,13 @@ package Chapter.one.four;
  * 
  * @author Chanth Miao
  */
-public class display {
+public class Display {
     public static void now() {
         System.out.println("\nclasswork 1-4-1:\n");
-        factor sampleFactor = new factor(5);
+        Factor sampleFactor = new Factor(5);
         System.out.println("5! = " + sampleFactor.getResult());
         System.out.println("\nclasswork 1-4-2:\n");
-        luckyDraw sampleLuckyDraw = new luckyDraw();
+        LuckyDraw sampleLuckyDraw = new LuckyDraw();
         sampleLuckyDraw.run();
     }
 }

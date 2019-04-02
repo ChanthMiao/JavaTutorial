@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @version 1.0
  * @author Chanth Miao
  */
-public class startUp {
+public class StartUp {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to classwork display repo of group 1");
         System.out.print("Please enter number of task you want to launch(e.g 1_4 means chapter 1.4): ");
@@ -24,7 +24,7 @@ public class startUp {
                 x = getOpt.nextInt();
                 y = getOpt.nextInt();
                 getOpt.nextLine();
-                router.choose(x, y);
+                Router.choose(x, y);
                 System.out.print("\nAnother input, or q to exit: ");
                 getOpt.reset();
             } else {

@@ -5,7 +5,7 @@ package Chapter.one;
  * 
  * @author Chanth Miao
  */
-public class router {
+public class Router {
     /**
      * This function calls section achievement display function in specified display
      * class according to the param 'section'. If requested resources is
@@ -16,10 +16,10 @@ public class router {
     public static void choose(int section) {
         switch (section) {
         case 4:
-            Chapter.one.four.display.now();
+            Chapter.one.four.Display.now();
             break;
         case 5:
-            Chapter.one.five.display.now();
+            Chapter.one.five.Display.now();
             break;
         default:
             System.out.println("Error: the specified task number does not exist!");

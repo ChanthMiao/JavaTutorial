@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
  * 
  * @author Chanth Miao
  */
-public class car {
+public class Car {
     private String c_colour;
     private String c_brand;
     private String c_model;
@@ -20,7 +20,7 @@ public class car {
      * @param brand  The brand of the car
      * @param model  The model of the car.
      */
-    public car(String colour, String brand, String model) {
+    public Car(String colour, String brand, String model) {
         this.c_colour = new String(colour);
         this.c_brand = new String(brand);
         this.c_model = new String(model);

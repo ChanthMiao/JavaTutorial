@@ -9,10 +9,10 @@ import java.util.Scanner;
  * 
  * @author Chanth Miao
  */
-public class luckyDraw {
+public class LuckyDraw {
     private int border;
 
-    public luckyDraw() {
+    public LuckyDraw() {
         // Do nothing
     }
 

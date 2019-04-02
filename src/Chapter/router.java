@@ -5,7 +5,7 @@ package Chapter;
  * 
  * @author Chanth Miao
  */
-public class router {
+public class Router {
     /**
      * This function calls specified child router class according to the param
      * 'chapter', passing param 'section' to child router class. If requested
@@ -17,10 +17,10 @@ public class router {
     public static void choose(int chapter, int section) {
         switch (chapter) {
         case 1:
-            Chapter.one.router.choose(section);
+            Chapter.one.Router.choose(section);
             break;
         case 2:
-            Chapter.two.router.choose(section);
+            Chapter.two.Router.choose(section);
             break;
         default:
             System.out.println("Error: the specified chapter number does not exist!");

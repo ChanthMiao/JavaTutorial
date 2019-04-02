@@ -1,0 +1,15 @@
+@startuml Book
+skinparam ClassAttributeIconSize 0
+class Book{
+    -b_BookName : String
+    -b_Author : String
+    -b_Press : String
+    -b_PubDate : int
+    +Book(bookName : String, author : String, press : String, pubDate : int)
+    +getBookName() : String
+    +getAuthor() : String
+    +getPress() : String
+    +getPbDate() : Date
+    +toString() : String
+}
+@enduml

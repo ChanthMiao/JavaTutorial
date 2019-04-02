@@ -5,7 +5,7 @@ package Chapter.one.four;
  * 
  * @author Chanth Miao
  */
-class factor {
+class Factor {
     private int initValue;
 
     /**
@@ -14,7 +14,7 @@ class factor {
      * 
      * @param startValue The starting value of the factorial.
      */
-    public factor(int startValue) {
+    public Factor(int startValue) {
         this.initValue = startValue;
     }
 

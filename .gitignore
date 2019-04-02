@@ -1,3 +1,4 @@
 bin
 .vscode
 .settings
+resources/UML/src/*.yuml

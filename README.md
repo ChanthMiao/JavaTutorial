@@ -21,15 +21,15 @@ This is the sync code repo of my class team's classwork. Everyone has right to f
 ```bash
 |-src
     |-app
-    |   |-startUp.java  # entry point of this program
+    |   |-StartUp.java  # entry point of this program
     |-Chapter
-        |-router.java   # router for chapter selection
+        |-Router.java   # router for chapter selection
         |-one           # chapter number
-        |   |-router.java       # router for internal chapter selection
+        |   |-Router.java       # router for internal chapter selection
         |   |-four              #internal chapter number
-        |   |   |-display.java      #display module of this level
-        |   |   |-factor.java       #\
-        |   |   |-luckyDraw.java    # \---implement of sepcific functions
+        |   |   |-Display.java      #display module of this level
+        |   |   |-Factor.java       #\
+        |   |   |-LuckyDraw.java    # \---implement of sepcific functions
         |   |-five              #internal chpter number
         |   |   |-xxx               #similar struct of the folder at the same layer
         |   |-xxx               #similar struct of the folder at the same layer
@@ -57,7 +57,7 @@ Really easy, just follow the build botten of the IDE
 
 Well, if you have install all the plugins referenced in '[Dependences](#2-dependences)' section, the launch setting file(.vscode/launch.json) should already automatically generated corretly. At the entry point `main(String[] args)`, you will see the launch option showed blow.
 
-![codeLen](codeLen.png)
+![codeLen](resources/pic/codeLen.png)
 
 **Here is the ideal content of .vscode/lauch.json:**
 
@@ -66,7 +66,7 @@ Well, if you have install all the plugins referenced in '[Dependences](#2-depend
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - startUp",
+            "name": "CodeLens (Launch) - StartUp",
             "request": "launch",
             "mainClass": "app.startUp",
             "projectName": "JavaTutorial",

@@ -6,10 +6,10 @@ package Chapter.two.one;
  * 
  * @author Chanth Miao
  */
-public class display {
+public class Display {
     public static void now() {
-        System.out.println("\nclasswork 2-1-1:\n");
-        car sampleCar = new car("绿色", "大众", "桑塔纳");
+        System.out.println("\nclasswork 2-1:\n");
+        Car sampleCar = new Car("绿色", "大众", "桑塔纳");
         sampleCar.showBasicInfo();
     }
 }

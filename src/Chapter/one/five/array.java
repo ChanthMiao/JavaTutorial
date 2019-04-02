@@ -6,7 +6,7 @@ package Chapter.one.five;
  * 
  * @author Chanth Miao
  */
-public class array {
+public class Array {
     private int[] data;
 
     /**
@@ -14,7 +14,7 @@ public class array {
      * 
      * @param refData The array provided by the user.
      */
-    public array(int[] refData) {
+    public Array(int[] refData) {
         data = new int[refData.length];
         System.arraycopy(refData, 0, this.data, 0, refData.length);
     }
