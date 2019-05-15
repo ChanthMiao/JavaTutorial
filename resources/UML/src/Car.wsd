@@ -1,0 +1,34 @@
+@startuml Car
+skinparam ClassAttributeIconSize 0
+package Chapter.two.four{
+    class Car
+    class Vehicles
+    Vehicles <|-- Car
+}
+class StartUp
+
+Car<.StartUp
+
+class StartUp{
+    +main(args : String) : void
+}
+class Vehicles{
+    -band : String
+    -color : String
+    +Vehicles()
+    +CurrentSpeed() : double
+    +getBand() : String
+    +setBand(bandStr : String) : void
+    +getcolor() : String
+    +setcolor(colorStr : String) : void
+    +showInfo() : void
+}
+
+class Car{
+    -seats : int
+    +Car()
+    +getSeats() : int
+    +setSeats(seatsNum : int) : void
+    +showCar() : void
+}
+@enduml

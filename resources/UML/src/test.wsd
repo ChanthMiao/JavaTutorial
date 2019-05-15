@@ -1,11 +1,14 @@
 @startuml Book
 skinparam ClassAttributeIconSize 0
+package Chapter.two.three{
+    class Book
+}
 class Book{
     -b_BookName : String
     -b_Author : String
     -b_Press : String
-    -b_PubDate : int
-    +Book(bookName : String, author : String, press : String, pubDate : int)
+    -b_PubDate : long
+    +Book(bookName : String, author : String, press : String, pubDate : String)
     +getBookName() : String
     +getAuthor() : String
     +getPress() : String
