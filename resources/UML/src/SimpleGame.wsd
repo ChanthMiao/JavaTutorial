@@ -1,0 +1,53 @@
+@startuml SimpleGame
+skinparam ClassAttributeIconSize 0
+package Chapter.three.one{
+    abstract class Charactor
+    class King
+    class Queen
+    class Rider
+    class Monster
+    Charactor <|-- King
+    Charactor <|-- Queen
+    Charactor <|-- Rider
+    Charactor <|-- Monster
+}
+package app{
+    class StartUp
+}
+
+King<.up.StartUp
+Queen<.up.StartUp
+Rider<.up.StartUp
+Monster<.up.StartUp
+
+
+class StartUp{
+    +main(args : String) : void
+}
+abstract class Charactor{
+    #name : String
+    #role : String
+    #weapon : String
+    #skill : String
+    #lastAction : String
+    +Charactor(cRole : String, cWeapon : String, cSkill : String)
+    +<i>switchWeapon() : void</i>
+    +<i>action(type : int) : void</i>
+    +showInfo() : void
+}
+
+class King{
+    +King(cName : String)
+}
+
+class Queen{
+    +Queen(cName : String)
+}
+
+class Rider{
+    +Rider(cName : String)
+}
+class Monster{
+    +Monster(cName : String)
+}
+@enduml
