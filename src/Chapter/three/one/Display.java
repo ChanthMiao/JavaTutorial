@@ -29,7 +29,7 @@ public class Display {
                 for (int i = 0; i < 3; i++) {
                     sampleKing.switchWeapon();
                 }
-                System.out.println("动作测试");
+                System.out.println("动作测试：");
                 for (int i = 0; i < 4; i++) {
                     sampleKing.action(i);
                 }
@@ -41,7 +41,7 @@ public class Display {
                 for (int i = 0; i < 3; i++) {
                     sampleQueen.switchWeapon();
                 }
-                System.out.println("动作测试");
+                System.out.println("动作测试：");
                 for (int i = 0; i < 3; i++) {
                     sampleQueen.action(i);
                 }
@@ -53,7 +53,7 @@ public class Display {
                 for (int i = 0; i < 3; i++) {
                     sampleRider.switchWeapon();
                 }
-                System.out.println("动作测试");
+                System.out.println("动作测试：");
                 for (int i = 0; i < 4; i++) {
                     sampleRider.action(i);
                 }
