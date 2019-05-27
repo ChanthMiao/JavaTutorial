@@ -18,6 +18,9 @@ public class Router {
         case 1:
             Chapter.three.one.Display.now();
             break;
+        case 2:
+            Chapter.three.two.Display.now();
+            break;
         default:
             System.out.println("Error: the specified task number does not exist!");
             break;
